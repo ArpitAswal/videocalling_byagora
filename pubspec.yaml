@@ -1,4 +1,4 @@
-name: video_calling
+name: VideoCaller
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: '>=2.18.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,9 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  agora_rtc_engine: ^6.1.1
-  permission_handler: ^10.2.0
-  agora_uikit: ^1.3.3
+  agora_rtc_engine: ^6.3.2
+  permission_handler: ^11.0.0
+  agora_uikit: ^1.3.10
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
